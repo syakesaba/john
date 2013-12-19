@@ -1,4 +1,4 @@
 john
 ====
 
-useful tools with john the ripper
+useful tools with john the ripper.
