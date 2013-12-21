@@ -1,0 +1,1 @@
+john /etc/passwd --external=externalfilter --rules=KoreLogicRulesAddNumNumNum --wordlist=word.txt
