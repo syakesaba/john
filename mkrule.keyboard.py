@@ -69,5 +69,6 @@ everywhere=['Az"%s"','>0A[0]"%s"','>1A[1]"%s"','>2A[2]"%s"','>3A[3]"%s"','>4A[4]
 for lines in qwer,qwe,rewq,rew,_1qaz,_1qa,zaq1,zaq,qwsa,wsaq,saqw,aqws,aswq,swqa,wqas,qasw:
     for s in lines:
         for line in everywhere:
+            s = s.replace('"','\"')
             print line % s
 
