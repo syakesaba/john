@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 aiueo = "aiueo"
-with open("words.japanese") as f:
+with open("data/japanese.txt") as f:
     for line in f:
         line = line.strip()
         if len(line) > 0 and line[0] in aiueo:
